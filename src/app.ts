@@ -4,7 +4,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import logger from './utils/logger';
 import bodyParser from 'body-parser';
-import { connectDB } from '../src/config/database';
+import { connectDB } from './config/database';
 
 dotenv.config();
 

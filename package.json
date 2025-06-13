@@ -10,7 +10,8 @@
     "format:check": "prettier --check .",
     "build": "npx tsc",
     "start": "ts-node -r tsconfig-paths/register src/app.ts",
-    "start:dev": "nodemon"
+    "start:dev": "nodemon",
+    "start:prod": "node dist/app.js"
   },
   "keywords": [],
   "author": "Abhay Kumar",
